@@ -8,7 +8,7 @@
 # -----------BASE SETTINGS---------------#
 #========================================#
 
-title: XiaoJiaping 
+title: Xiao Jiaping (肖佳平) 
 email: 
 description: a minimalistic jekyll theme for academics
 baseurl:                                       # the subpath of your site, e.g. /blog
@@ -26,10 +26,10 @@ snippet:
 twitter: xjp99v5
 github: xjp99v5
 linkedin: jiaping-xiao
-stackoverflow: 12935605
+stackoverflow: 15243581
 website: https://scholar.google.com/citations?hl=en&user=zaZ6mK0AAAAJ
-codepen: tcbutler320
-medium: tbutler0x90
+codepen: 
+medium: xjp99v5
 email: xjp99v5@gmail.com
 keybase: xjp99v5
 pgp: 
