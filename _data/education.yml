@@ -1,6 +1,20 @@
-- School: Princeton
-  Degree: 
-  Program: School of Public and International Affairs
-  Start Date: 
-  End Date: 
+- School: Nanyang Technological University, Singapore
+  Degree: Ph.D.
+  Program: School of Mechanical & Aerospace Engineering
+  Start Date: 2020
+  End Date: 2024
+  Icon: /assets/img/icons/2x/princeton-crop.png      # Make this icon small, think 30px/30px
+  
+- School: Beihang Univerisy
+  Degree: MSc
+  Program: Flight Dynamics and Control
+  Start Date: 2014
+  End Date: 2017
+  Icon: /assets/img/icons/2x/princeton-crop.png      # Make this icon small, think 30px/30px
+  
+- School: Beihang Univerisy
+  Degree: BSc
+  Program: Engineering
+  Start Date: 2010
+  End Date: 2014
   Icon: /assets/img/icons/2x/princeton-crop.png      # Make this icon small, think 30px/30px
