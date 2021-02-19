@@ -17,8 +17,8 @@
             <span style="color: {{ theme.social-color }};">
                 <i class="fab fa-linkedin fa-lg"></i></a>
             </span>
-    {{ elseif site.codepen }}
-        <a href="https://codepen.io/{{ site.codepen }}">
+    {{ elseif site.google }}
+        <a href="https://scholar.google.com/citations?hl=en&user={{ site.google.scholar }}">
             <span style="color: {{ theme.social-color }};">
                 <i class="fab fa-codepen fa-lg"></i></a>
             </span>
@@ -28,7 +28,7 @@
                 <i class="fab fa-stack-overflow fa-lg"></i></a>
             </span>
     {{ elseif site.medium }}
-        <a href="https://{{ site.medium }}.medium.com/">
+        <a href="https://medium.com/@{{ site.medium }}">
             <span style="color: {{ theme.social-color }};">
                 <i class="fab fa-medium fa-lg"></i></a>
             </span>
