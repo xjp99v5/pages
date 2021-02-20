@@ -3,10 +3,10 @@
 {{ if site.twitter }}
 <span style="color:{{ theme.social-color }};">
     <i> &nbsp;&nbsp; </i>
-        <a class="social-link" href="https://twitter.com/{{ site.twitter }}">
+    <a class="social-link" href="mailto:{{ site.email }}">
             <span style="color: {{ theme.social-color }};">
-                <i class="fab fa-twitter-square fa-lg"></i></a>
-            </span>
+                <i class="fa fa-envelope fa-lg"></i></a>
+            </span>        
     {{ elseif site.github }}
         <a href="https://github.com/{{ site.github }}">
             <span style="color: {{ theme.social-color }};">
@@ -22,20 +22,15 @@
             <span style="color: {{ theme.social-color }};">
                 <i class="fab fa-google fa-lg"></i></a>
             </span>
-    {{ elseif site.stackoverflow }}
-        <a href="https://stackoverflow.com/users/story/{{ site.stackoverflow }}">
-            <span style="color: {{ theme.social-color }};">
-                <i class="fab fa-stack-overflow fa-lg"></i></a>
-            </span>
-    {{ elseif site.medium }}
-        <a href="https://medium.com/@{{ site.medium }}">
-            <span style="color: {{ theme.social-color }};">
-                <i class="fab fa-medium fa-lg"></i></a>
-            </span>
     {{ elseif site.researchgate }}
         <a href="https://www.researchgate.net/profile/{{ site.researchgate }}">
             <span style="color: {{ theme.social-color }};">
                 <i class="fab fa-researchgate fa-lg"></i></a>
+            </span>
+    {{ elseif site.orcid }}
+        <a href="https://orcid.org/{{ site.orcid }}">
+            <span style="color: {{ theme.social-color }};">
+                <i class="fab fa-orcid fa-lg"></i></a>
             </span>
     <i> &nbsp;&nbsp; </i>
 </span>
