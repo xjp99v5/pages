@@ -127,12 +127,13 @@ layout: default
                     </div>
                     {% endfor %}
               </div>
-            {% elsif section.name == "Coursework" %}
+            {% elsif section.name == "News" %}
               <div class="tab-pane overflow-auto" id="{{section.id}}" role="tabpanel" aria-labelledby="{{section.id}}-tab">  
                 <p><i>{{section.description}}</i></p>
                 <div class="list-group">
-                {% for courses in site.data.courses %}
-                  <button type="button" class="list-group-item text-left">{{ courses.Course }}</button>
+                {% for news in site.data.news %}
+                  <!-- <button type="button" class="list-group-item text-left">{{ courses.Course }}</button> -->
+                  <li>{{ news.Date }} - {{ news.Content }}</li>
                 {% endfor %}
                 </div>
               </div>

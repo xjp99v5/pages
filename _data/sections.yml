@@ -4,8 +4,8 @@
   url: publications.html
   first: true
   
-- name: Coursework
-  id: courses
+- name: News
+  id: news
   description: #Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
   content: 
   first: false
